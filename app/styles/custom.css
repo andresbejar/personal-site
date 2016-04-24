@@ -60,6 +60,16 @@ ul{
     margin: 0;
 }
 
+.fotos-profesores{
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.friends{
+    margin: 0 auto;
+    text-align: center;  
+}
+
 
 
 .container #contact-form {
