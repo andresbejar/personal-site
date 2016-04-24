@@ -1,0 +1,16 @@
+<div class="jumbotron parallax-window" ng-parallax pattern="'images/background.jpg'" speed="0">
+	<div class="container">
+		<h1>Objetivos</h1>
+	</div>
+  
+</div>
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-4" ng-repeat="objetivo in objetivos">
+			<h2>{{objetivo.title}}</h2>
+			<p>{{objetivo.text}}</p>
+		</div>
+	</div>	
+</div>
